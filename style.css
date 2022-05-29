@@ -1,0 +1,20 @@
+body {
+  background: rgb(0, 0, 0);
+}
+
+.clock {
+  width: 250px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: rgb(255, 231, 11);
+  font-size: 40px;
+  font-weight: 600;
+  border: 1px solid rgb(255, 231, 11);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
